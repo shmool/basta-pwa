@@ -3,7 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template: `
-    <!--The content below is only a placeholder and can be replaced.-->
     <app-header></app-header>
 
     <mat-sidenav-container class="song-book-container">
@@ -12,7 +11,9 @@ import { Component } from '@angular/core';
         <app-song-list></app-song-list>
       </mat-sidenav>
 
-      <router-outlet></router-outlet>
+      <div class="main-content">
+        <router-outlet></router-outlet>
+      </div>
 
     </mat-sidenav-container>
   `,

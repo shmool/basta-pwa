@@ -1,0 +1,24 @@
+.search-song-field {
+  width: 100%;
+}
+
+.song-res-title {
+  margin-left: 10px;
+  font-size: 24px;
+  vertical-align: bottom;
+}
+
+.result-button {
+  float: right;
+  margin-left: 10px;
+}
+
+.lyrics {
+  font-size: initial;
+  height: 100%;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  white-space: pre-line;
+  padding: 10px;
+}

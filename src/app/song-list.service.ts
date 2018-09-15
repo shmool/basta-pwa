@@ -1,10 +1,6 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
-
-export interface Song {
-  title: string;
-  artist: string;
-}
+import { Song } from './song';
 
 const songList = [
   {

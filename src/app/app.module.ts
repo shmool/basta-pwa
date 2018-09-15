@@ -16,17 +16,21 @@ import {
   MatToolbarModule
 } from '@angular/material';
 import { SongListComponent } from './song-list/song-list.component';
+import { SearchSongComponent } from './search-song/search-song.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SongListComponent
+    SongListComponent,
+    SearchSongComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
