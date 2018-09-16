@@ -4,23 +4,11 @@ import { Song } from './song';
 
 const songList = [
   {
-    title: 'Heal the World',
+    title: 'Heal The World',
     artist: 'Michael Jackson'
   },
   {
-    title: 'We Are the World',
-    artist: 'Michael Jackson'
-  },
-  {
-    title: 'Vogue',
-    artist: 'Madonna'
-  },
-  {
-    title: 'Virtual Insanity',
-    artist: 'Jamiroquai'
-  },
-  {
-    title: 'We Are the World',
+    title: 'We Are The World',
     artist: 'Michael Jackson'
   },
   {
@@ -32,7 +20,7 @@ const songList = [
     artist: 'Jamiroquai'
   },
   {
-    title: 'We Are the World',
+    title: 'We Are The World',
     artist: 'Michael Jackson'
   },
   {
@@ -44,7 +32,7 @@ const songList = [
     artist: 'Jamiroquai'
   },
   {
-    title: 'We Are the World',
+    title: 'We Are The World',
     artist: 'Michael Jackson'
   },
   {
@@ -56,7 +44,7 @@ const songList = [
     artist: 'Jamiroquai'
   },
   {
-    title: 'We Are the World',
+    title: 'We Are The World',
     artist: 'Michael Jackson'
   },
   {
@@ -68,7 +56,19 @@ const songList = [
     artist: 'Jamiroquai'
   },
   {
-    title: 'We Are the World',
+    title: 'We Are The World',
+    artist: 'Michael Jackson'
+  },
+  {
+    title: 'Vogue',
+    artist: 'Madonna'
+  },
+  {
+    title: 'Virtual Insanity',
+    artist: 'Jamiroquai'
+  },
+  {
+    title: 'We Are The World',
     artist: 'Michael Jackson'
   },
   {

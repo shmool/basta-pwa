@@ -16,7 +16,9 @@ import { switchMap } from 'rxjs/internal/operators';
 export class SongViewComponent implements OnInit {
   song$;
 
-  constructor(private route: ActivatedRoute, private searchSongService: SearchSongService) {
+  constructor(
+    private route: ActivatedRoute,
+    private searchSongService: SearchSongService) {
   }
 
   ngOnInit() {

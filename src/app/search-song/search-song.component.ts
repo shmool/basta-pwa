@@ -31,22 +31,14 @@ import { SongListService } from '../song-list.service';
     </ng-template>
 
     <div *ngIf="songResult$ | async as song; else searchButton">
-      <span class="song-res-title">{{ song.title }} - {{ song.artist }}</span>
 
       <button mat-raised-button color="accent" class="result-button" (click)="reset()">
         <mat-icon>close</mat-icon>
         Clear
       </button>
 
-      <button mat-raised-button color="primary" class="result-button"
-              (click)="addSong(song.title, song.artist)">
-        <mat-icon>add</mat-icon>
-        Add
-      </button>
+      <app-song [songTitle]="song.title" [artist]="song.artist" [lyrics]="song.lyrics"></app-song>
 
-      <p class="lyrics">
-        {{ song.lyrics }}
-      </p>
     </div>
   `,
   styleUrls: ['./search-song.component.scss']
@@ -54,7 +46,7 @@ import { SongListService } from '../song-list.service';
 export class SearchSongComponent implements OnInit {
   songResult$;
 
-  constructor(private searchSongService: SearchSongService, private songListService: SongListService) {
+  constructor(private searchSongService: SearchSongService) {
   }
 
   ngOnInit() {
@@ -62,10 +54,6 @@ export class SearchSongComponent implements OnInit {
 
   searchSong(title, artist) {
     this.songResult$ = this.searchSongService.searchSong(title, artist);
-  }
-
-  addSong(title, artist) {
-    this.songListService.addSong(title, artist);
   }
 
   reset() {
