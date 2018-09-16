@@ -18,6 +18,66 @@ const songList = [
   {
     title: 'Virtual Insanity',
     artist: 'Jamiroquai'
+  },
+  {
+    title: 'We Are the World',
+    artist: 'Michael Jackson'
+  },
+  {
+    title: 'Vogue',
+    artist: 'Madonna'
+  },
+  {
+    title: 'Virtual Insanity',
+    artist: 'Jamiroquai'
+  },
+  {
+    title: 'We Are the World',
+    artist: 'Michael Jackson'
+  },
+  {
+    title: 'Vogue',
+    artist: 'Madonna'
+  },
+  {
+    title: 'Virtual Insanity',
+    artist: 'Jamiroquai'
+  },
+  {
+    title: 'We Are the World',
+    artist: 'Michael Jackson'
+  },
+  {
+    title: 'Vogue',
+    artist: 'Madonna'
+  },
+  {
+    title: 'Virtual Insanity',
+    artist: 'Jamiroquai'
+  },
+  {
+    title: 'We Are the World',
+    artist: 'Michael Jackson'
+  },
+  {
+    title: 'Vogue',
+    artist: 'Madonna'
+  },
+  {
+    title: 'Virtual Insanity',
+    artist: 'Jamiroquai'
+  },
+  {
+    title: 'We Are the World',
+    artist: 'Michael Jackson'
+  },
+  {
+    title: 'Vogue',
+    artist: 'Madonna'
+  },
+  {
+    title: 'Virtual Insanity',
+    artist: 'Jamiroquai'
   }
 ];
 
