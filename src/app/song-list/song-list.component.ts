@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Song, SongListService } from '../song-list.service';
+import { SongListService } from '../song-list.service';
 import { Observable } from 'rxjs/index';
+import { Song } from '../song';
 
 @Component({
   selector: 'app-song-list',
@@ -28,7 +29,7 @@ import { Observable } from 'rxjs/index';
         </mat-form-field>
       </mat-list-item>
 
-      <a [routerLink]="['./']" *ngFor="let song of songList$ | async">
+      <a [routerLink]="['song', song.title, song.artist]" *ngFor="let song of songList$ | async">
         <mat-list-item>{{ song.title }} - {{ song.artist }}
         </mat-list-item>
       </a>

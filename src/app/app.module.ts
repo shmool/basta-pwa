@@ -18,13 +18,19 @@ import {
 import { SongListComponent } from './song-list/song-list.component';
 import { SearchSongComponent } from './search-song/search-song.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LyricsComponent } from './lyrics/lyrics.component';
+import { SongComponent } from './song/song.component';
+import { SongViewComponent } from './song-view/song-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SongListComponent,
-    SearchSongComponent
+    SearchSongComponent,
+    LyricsComponent,
+    SongComponent,
+    SongViewComponent
   ],
   imports: [
     BrowserModule,
